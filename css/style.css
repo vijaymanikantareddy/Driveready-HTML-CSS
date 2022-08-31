@@ -1,0 +1,480 @@
+.header{
+    height: 80px;
+    width: 100%;
+    background: white;
+}
+
+.header h1{
+    height: 80px;
+    margin-top: -10px;
+    margin-left: -15px;
+    margin-right: -10px;
+    padding-top: 30px;
+    background: white;
+    text-align: center;
+    color: #0000FF;
+    
+}
+
+#headlogo img{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 30px;
+}
+
+body{
+    height: 1800px;
+}
+
+#nav{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border: 20px;
+    background-color: #0000FF;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+}
+
+p{
+    text-indent: justify;
+}
+
+#content{
+    height: 450px;
+    width: 90%;
+    text-decoration-color: #0d0dfa;
+    margin: auto;
+    border: 1px solid #0000FF;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: 50px;
+    text-align: justify;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 5px #09a7a7;
+}
+#nav ul li{
+    color: #0000FF;
+    margin-top: 8px;
+    text-align: center;
+    margin-left: 20px;
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    background: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nav li a:hover{
+    color: white
+}
+
+#nav ul li:hover{
+    background: white;
+    color: white;
+    cursor: pointer; 
+}
+
+#nav ul{
+    margin: auto;
+
+}
+
+#nav ul li:hover{
+    background: black;
+    color: white;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 123, 255);
+}
+
+#main h3{
+    color: #055C9D;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 3px 6px #003333;
+}
+
+#table{
+    padding: 20px;
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid #003060;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 5px #003333;
+}
+
+#table table{
+    background: white;
+    padding-top: 30px;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+}
+
+#table thead{
+    background: #003060;
+}
+#table thead th{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#table tbody tr{
+    padding: 10px;
+    border: 1px solid #003060;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#table tbody tr td{
+    border: 1px solid #003060;
+
+}
+#table tbody tr:nth-child(even){
+    background: #7EC8E3;
+}
+
+#table tbody tr:nth-child(odd):hover{
+    background: #7EC8E3;
+}
+
+#table tbody tr:nth-child(even):hover{
+    background: white;
+    text-transform: uppercase;
+}
+
+#table tbody tr td button{
+    border-radius: 5px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: black;
+}   
+
+#table tbody tr td button:hover{
+    background: #003233;
+    color: White;
+}
+
+/* Gallery */
+#gallery{
+    height:1000px;
+    width:92%;
+    margin:auto;
+    border:1px solid #003060;
+    border-radius:20px;
+    box-shadow:4px 4px 8px 5px #003060;
+    padding:30px;
+    background-image:url("../html/images/gallerybg.jpg")
+}
+.galleryRow .gal{
+    height:300px;
+    margin-left:30px;
+    width:30%;
+    float:left;
+    margin-bottom:45px;
+
+}
+.galleryRow .gal img{
+    height:200px;
+    width:230px;
+    border-radius:10px;
+    margin-left: 80px;
+}
+.galleryRow .gal .imgName{
+    background:#003060;
+    width:220px;
+    opacity:0.8;
+    margin:auto;
+    border-radius:10px;
+    height:50px;
+
+}
+.galleryRow .gal .imgName p{
+    color:white;
+    padding:10px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.galleryRow .gal img:hover{
+    box-shadow:5px 6px 9px 7px grey;
+    border-radius:20px 0px 20px 0px;
+    transition:all 1s;
+}
+@media screen and (min-width:400px) and(max-width:600px){
+    body{
+        background:yellow;
+    }
+    .galleryRow .gal{
+        width:95%;
+    }
+    #gallery{
+        height:3000px;
+    }
+}
+@media screen and(min-width:601px) and (max-width:800px){
+    body{
+        background:red;
+    }
+    .galleryRow .gal{
+        width:95%;
+    }
+    #gallery{
+        height:3000px;
+        float:left;
+    }
+}
+@media screen and(min-width:801px) and (max-width:1000px){
+    body{
+        background:black;
+    }
+    .galleryRow .gal{
+        width: 95%;
+    }
+    #gallery{
+        height:3000px;
+        float:left;
+    }
+}
+/*  */
+
+#loginhead h2{
+    color: #0000FF;
+    border: 20px;
+}
+
+#log{
+    padding-top: 10px;
+}
+
+#log input{
+    float: right;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #0000FF;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#log input:hover{
+    cursor: pointer;
+    background: #09a7a7;
+}
+
+.loginpage{
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    border: 20px;
+}
+
+.username{
+    height: 50px;
+    width: 300px;
+    padding-left: 30px;
+}
+
+
+/* Login Page Styles */
+.loginhere{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(151, 203, 255);
+    margin-left: 110%;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 4px #888888;
+}
+#createacc{ 
+    border-radius: 10px;  
+    width:70%; 
+    height:50px; 
+    margin-left: 15%; 
+    margin-top: 20px; 
+    font-size: 20px; 
+}
+
+#createacc input{
+    color: white;
+    background-color: #0000FF;
+    border-radius: 10px;  
+    width:90%; 
+    height:50px; 
+    margin-left: 5%;  
+    font-size: 20px; 
+    color: white;
+}
+#createacc input:hover{
+    cursor: pointer;
+}
+
+#forgetpass a p{
+    text-decoration: none;
+    color: blue;
+}
+.loginhead h2{
+    color: blue;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#loginbutton input{
+    background-color: #0000FF; 
+    border-radius: 10px;  
+    width:90%; 
+    height:50px; 
+    margin-left: 5%;
+    margin-right: 5%;  
+    margin-top: 20px; 
+    font-size: 20px; 
+    color: white;
+}
+
+#loginbutton input:hover{
+    cursor: pointer;
+}
+
+#loginpass input{
+    width:90%; 
+    height: 40px; 
+    margin-top:20px; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    border-radius:5px;
+}
+
+#loginuser input{
+    width:90%; 
+    height: 40px; 
+    margin-top: 50px; 
+    margin-left: 5%; 
+    margin-right: 5%;
+    border-radius:5px;
+}
+
+
+/* Sign Up Page */
+body{
+    background-color:white;
+    height: 800px;
+}
+#signupform{
+    height: 550px;
+    width: 500px;
+    background: rgb(151, 203, 255);
+    margin-left: 33%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 4px #888888;
+}
+#signupform label{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left:50px;
+}
+
+#signupform fieldset{
+    width:475px; 
+    height: 532px; 
+    border-radius: 10px;
+    margin-left: -1px;
+}
+
+#signupform select{
+    font-size: 18px;
+}
+
+#signupsubmit input{
+    height: 40px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    margin-left: 200px;
+    width: 100px;
+}
+#signupsubmit input:hover{
+    cursor: pointer;
+}
+
+#signupform fieldset form .signupname{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left:50px;
+}
+
+/*  */
+
+
+#marq{
+    background: skyblue;
+    width: 100%;
+}
+
+/* Contact  */
+textarea{
+    resize: none;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+#contactinfo{
+    height: 300px;
+    width: 400px;
+    float: left;
+    text-align: justify;
+    text-indent: 50px;
+    margin-left:200px;
+}
+#contactinfo p{
+    color: black;
+    font-size: 20px;
+}
+#contactfill{
+    height: 290px;
+    width: 400px;
+    box-shadow: 5px 5px 8px 4px gray;
+    border-radius: 10px;
+    float: right;
+    margin-right: 100px;
+}
+#contactfill label{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#contactsubmit input{
+    height: 40px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    margin-left: 150px;
+    width: 100px;
+}
+#contactsubmit input:hover{
+    cursor: pointer;
+}

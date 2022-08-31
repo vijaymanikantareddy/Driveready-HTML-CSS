@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="../images/fsdlogo.png" style="border-radius:30px;">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        textarea{
+            resize: none;
+            margin-top: 5px;
+            margin-left: 100px;
+        }
+        #contactinfo{
+            height: 300px;
+            width: 400px;
+            float: left;
+            text-align: justify;
+            text-indent: 50px;
+            margin-left:200px;
+        }
+        #contactinfo p{
+            color: black;
+            font-size: 20px;
+        }
+        #contactfill{
+            height: 290px;
+            width: 400px;
+            box-shadow: 5px 5px 8px 4px gray;
+            border-radius: 10px;
+            float: right;
+            margin-right: 100px;
+        }
+        #contactfill label{
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+        #contactsubmit input{
+            height: 40px;
+            border-radius: 10px;
+            background: blue;
+            color: white;
+            font-size: 20px;
+            margin-left: 150px;
+            width: 100px;
+        }
+        #contactsubmit input:hover{
+            cursor: pointer;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="headlogo">
+        <img src="../images/fsdlogo.png">
+    </div>
+    <div class="header">
+        <h1> CSS</h1>
+    </div>
+    <div id="nav">
+        <ul>
+            <li><a href="intro.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="https://github.com/vijaymanikantareddy">View Source</a></li>
+        </ul>
+    </div>
+    <div id="log">
+        <a href="login.html"><input type="button" value="Login"></a>
+        <a href="signup.html"><input type="button" value="Sign Up"></a>
+    </div>
+    <br><br>
+    <div id="main"> 
+        <div>
+            <h3> Contact </h3>
+        </div>
+        <div id="contactinfo">
+            <p>Need to get in touch with us? Either fill out the form with your inquiry or find the department email you'd like to contact below</p>
+            <p>You can Contact our team regarding any issues with the web page or the content in the webpage</p>
+        </div>
+        <div id="contactfill">
+            <br>
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Enter Name">
+                <br><br>
+                <label>Email:</label>
+                <input type="email" placeholder="Enter Email">
+                <br><br>
+                <label>Type your Query:</label><br>
+                <textarea rows="4" cols="20"></textarea>
+                <br><br>
+                <a href="intro.html""><div id="contactsubmit"><input type="button" value="Submit"></div></a>
+            </form>
+        </div>
+    </body>
+    </html>
